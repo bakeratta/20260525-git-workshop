@@ -22,7 +22,7 @@ var shapes = [
       1, 1, 1 ]
 ];
 var colors = [
-    'white', 'orange', 'skyblue', 'yellow', 'red', 'lime', 'purple'
+    'whiteblue', 'orange', 'skyblue', 'yellow', 'red', 'lime', 'purple'
 ];
 
 // creates a new 4x4 shape in global variable 'current'
@@ -44,13 +44,13 @@ function newShape() {
             }
         }
     }
-    
+}
     // new shape starts to move
     freezed = false;
     // position where the shape will evolve
     currentX = 5;
     currentY = 0;
-}
+
 
 // clears the board
 function init() {
